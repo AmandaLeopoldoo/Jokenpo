@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container with the background image */
+.container {
+  background: url("https://img.itch.zone/aW1nLzU1MDAwNDYucG5n/original/%2BkmSKD.png")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 70px 90px;
+  border-radius: 8px;
+  font-size: 30px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #ff1b7b;
+  border-radius: 10px;
+  padding: 40px 50px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1abc9c;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+}
